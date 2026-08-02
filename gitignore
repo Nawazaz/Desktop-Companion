@@ -1,0 +1,23 @@
+# Environment / secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Runtime data - user-specific, shouldn't be committed
+memory_db/
+settings.json
+debug.log
+
+# Editor/OS junk
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
